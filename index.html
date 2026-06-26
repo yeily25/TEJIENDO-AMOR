@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tienda de ropa tejida a crochet</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>🧶 Tejiendo Amor</h1>
+        <p>Prendas únicas hechas a crochet con mucho cariño</p>
+    </header>
+    <nav class="navegación">
+        <input type="checkbox" id="menu-toggle" style="display: none;">
+        <label for="menu-toggle" class="icono-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        
+        <ul class="menu-enlaces">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#video">Video de más productos</a></li>
+            <li><a href="#musica">Música</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="video">
+       <h2>🎬videos de mas ropa tejida a crochet</h2>
+       <video width="500" controls>
+        <source src="video/video.mp4" type="video/mp4">
+    </section>
+
+    <section id="musica">
+        <h4>🎵musica relajante</h4>
+        <audio controls >
+            <source src="audio/Audio mp3.mpeg"type="audio/mpeg">
+        </audio>
+    </section>
+
+    <!-- Sección de productos -->
+    <section id="productos">
+        <h2>Nuestros productos</h2>
+
+        <!-- Producto 1 -->
+        <article>
+            <h3>Bufanda de lana</h3>
+            <img src="imagenes/bufanda.jpeg" width="200">
+            <p>Bufanda suave y abrigada, tejida 100% a mano.</p>
+            <p><strong>Precio: $8.500</strong></p>
+            <button>Agregar al carrito</button>
+        </article>
+
+        <!-- Producto 2 -->
+        <article>
+            <h3>Gorro con pompón</h3>
+            <img src="imagenes/gorro.jpeg"  width="200">
+            <p>Gorro cálido con pompón .</p>
+            <p><strong>Precio: $6.200</strong></p>
+            <button>Agregar al carrito</button>
+        </article>
+
+        <!-- Producto 3 -->
+        <article>
+            <h3>Chal eco-friendly</h3>
+            <img src="imagenes/chal de color verde.jpeg" width="200">
+            <p>Chal ligero, ideal para entretiempo.</p>
+            <p><strong>Precio: $12.400</strong></p>
+            <button>Agregar al carrito</button>
+        </article>
+    
+
+        <!-- Producto 4 -->
+        <article>
+            <h3>Chal eco-friendly</h3>
+            <img src="imagenes/vestigo rojo.jpeg" width="200">
+            <p>vestido escotado color rojo</p>
+            <p><strong>Precio: $20.400</strong></p>
+            <button>Agregar al carrito</button>
+        </article>
+        
+    </section>
+
+    <!-- Carrito de compras (simulado) -->
+    <aside>
+        <h2>🛒 Carrito de compras</h2>
+        <p>Aquí se mostrarán los productos agregados.</p>
+        <ul>
+            <li>Bufanda de lana - $8.500</li>
+            <li>Gorro con pompón - $6.200</li>
+        </ul>
+        <p><strong>Total: $14.700</strong></p>
+        <button>Finalizar compra</button>
+    </aside>
+
+    <!-- Formulario de contacto -->
+    <section id="contacto">
+        <h2>Contactanos</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="30"></textarea><br><br>
+
+            <input type="submit" value="Enviar consulta">
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>© 2025 Tejiendo Amor - Todos los derechos reservados</p>
+        <p>Hecho a mano con ❤️</p>
+    </footer>
+
+</body>
+</html>
